@@ -135,6 +135,7 @@ section,
   background: #fff;
   box-sizing: border-box;
   padding: 1.5rem;
+  margin-bottom: 80px;
 }
 .form input,
 .form textarea {
@@ -145,7 +146,7 @@ section,
   font-size: 1rem;
 }
 .form button {
-  background: #1b4f72;
+  /* background: #1b4f72; */
   color: #fff;
   border: none;
   border-radius: 8px;
