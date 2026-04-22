@@ -36,8 +36,9 @@ body {
 .tools {
   border: 2px solid darkgoldenrod;
   margin: 1.5rem auto;
-  padding: 1.2rem 2rem;
+  padding: 1.2rem 2.5rem;
   text-align: center;
+  /* list-style-position: inside; */
   background-color: darkgoldenrod;
   border-radius: 20px;
   color: #222;
@@ -159,4 +160,5 @@ footer {
   background-color: #1b4f72;
   color: white;
   margin-top: 2rem;
+  margin-bottom: 0;
 }
