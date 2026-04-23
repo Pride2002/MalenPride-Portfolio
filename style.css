@@ -5,7 +5,6 @@ body {
 
 * {
   font-family: Arial, Helvetica, sans-serif;
-  text-align: justify;
 }
 
 /* Nav bar */
@@ -29,18 +28,18 @@ body {
 }
 
 .hesection {
-  text-align: center;
+  text-align: center !important;
+   list-style-position: inside;
 }
 
 /* Skills & Tools */
 .skills,
 .tools {
-  border: 2px solid darkgoldenrod;
+  border: 2px solid goldenrod;
   margin: 1.5rem auto;
   padding: 1.2rem 3.5rem;
   text-align: center;
-  /* list-style-position: inside; */
-  background-color: darkgoldenrod;
+  background-color: goldenrod;
   border-radius: 20px;
   color: #222;
   max-width: 350px;
@@ -67,25 +66,6 @@ body {
 section,
 .section {
   padding: 2rem 1rem;
-}
-
-/* Responsive adjustments */
-@media (max-width: 600px) {
-  .card,
-  .skills,
-  .tools,
-  .form {
-    max-width: 98vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
-  }
-  .card-img-top {
-    height: 150px;
-  }
-  section,
-  .section {
-    padding: 1rem 0.2rem;
-  }
 }
 
 /* Cards */
@@ -125,23 +105,26 @@ section,
   height: 400px;
   padding-top: 20px;
   color: white;
+  display: flex;
+  justify-content: space-evenly;
 }
 .img {
-  width: 100px;
-  height: 170px;
+  width: 350px;
+  height: 270px;
   border-radius: 50%;
   /* padding: 20px; */
-  margin-left: 40%;
-  float: inline-end;
+  /* margin-left: 40%; */
+  /* float: inline-end; */
   margin: 0px 50px;
 }
 #text {
-  padding-left: 50px;
+  padding-left: 0px;
 }
 
 /* Project */
 .proj {
   text-align: center;
+  margin-top: 50px;
 }
 
 /* Contact form */
@@ -156,7 +139,8 @@ section,
   background: #fff;
   box-sizing: border-box;
   padding: 1.5rem;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
+  margin-top: 80px;
 }
 .form input,
 .form textarea {
@@ -184,3 +168,23 @@ footer {
   margin-top: 2rem;
   margin-bottom: 0;
 }
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .card,
+  .skills,
+  .tools,
+  .form {
+    max-width: 98vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .card-img-top {
+    height: 150px;
+  }
+  section,
+  .section {
+    padding: 1rem 0.2rem;
+  }
+}
+
