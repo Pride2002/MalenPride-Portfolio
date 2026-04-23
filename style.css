@@ -29,7 +29,6 @@ body {
 
 .hesection {
   text-align: center !important;
-  
 }
 
 /* Skills & Tools */
@@ -39,8 +38,8 @@ body {
   margin: 1.5rem auto;
   padding: 1.2rem 7.5rem;
   background-color: goldenrod;
-   list-style-position: inside !important;
-   text-align: left !important;
+  list-style-position: inside !important;
+  text-align: left !important;
   border-radius: 20px;
   color: #222;
   max-width: 350px;
@@ -105,15 +104,17 @@ section,
   background-color: #1b4f72;
   height: 500px;
   padding: 2rem;
-  padding-top: 70px !important;
+  padding-top: 50px !important;
   color: white;
   display: flex;
   justify-content: space-evenly;
 }
 .img {
-  width: 150px;
-  height: 230px;
-  border-radius: 80%;
+  position: absolute;
+  top: 78%;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
   /* padding-top: 20px; */
   /* padding: 20px; */
   /* margin-left: 40%; */
@@ -190,4 +191,3 @@ footer {
     padding: 1rem 0.2rem;
   }
 }
-
