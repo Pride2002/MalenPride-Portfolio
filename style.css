@@ -105,19 +105,20 @@ section,
   background-color: #1b4f72;
   height: 500px;
   padding: 2rem;
+  padding-top: 70px !important;
   color: white;
   display: flex;
   justify-content: space-evenly;
 }
 .img {
-  width: 300px;
-  height: 270px;
-  border-radius: 50%;
-  padding-top: 20px;
+  width: 150px;
+  height: 230px;
+  border-radius: 80%;
+  /* padding-top: 20px; */
   /* padding: 20px; */
   /* margin-left: 40%; */
   /* float: inline-end; */
-  margin: 0px 50px;
+  margin: 0px 0px;
 }
 #text {
   padding-left: 0px;
