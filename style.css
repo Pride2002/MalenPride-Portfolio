@@ -102,7 +102,7 @@ section,
 /* About */
 #about {
   background-color: #1b4f72;
-  height: 500px;
+  height: 600px;
   padding: 2rem;
   padding-top: 50px !important;
   color: white;
@@ -112,8 +112,8 @@ section,
 .img {
   position: absolute;
   bottom: 60%;
-  width: 160px;
-  height: 140px;
+  width: 150px;
+  height: 120px;
   border-radius: 50%;
   margin: 0px 0px;
 }
