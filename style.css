@@ -111,14 +111,10 @@ section,
 }
 .img {
   position: absolute;
-  top: 78%;
+  bottom: 60%;
   width: 160px;
-  height: 160px;
+  height: 140px;
   border-radius: 50%;
-  /* padding-top: 20px; */
-  /* padding: 20px; */
-  /* margin-left: 40%; */
-  /* float: inline-end; */
   margin: 0px 0px;
 }
 #text {
@@ -128,7 +124,7 @@ section,
 /* Project */
 .proj {
   text-align: center;
-  margin-top: 50px;
+  /* margin-top: 30px; */
 }
 
 /* Contact form */
@@ -143,8 +139,8 @@ section,
   background: #fff;
   box-sizing: border-box;
   padding: 1.5rem;
-  margin-bottom: 100px;
-  margin-top: 80px;
+  margin-bottom: 120px;
+  margin-top: 50px;
 }
 .form input,
 .form textarea {
