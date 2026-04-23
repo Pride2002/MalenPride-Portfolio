@@ -29,7 +29,7 @@ body {
 
 .hesection {
   text-align: center !important;
-   list-style-position: inside;
+  
 }
 
 /* Skills & Tools */
@@ -37,9 +37,10 @@ body {
 .tools {
   border: 2px solid goldenrod;
   margin: 1.5rem auto;
-  padding: 1.2rem 3.5rem;
-  text-align: center;
+  padding: 1.2rem 7.5rem;
   background-color: goldenrod;
+   list-style-position: inside !important;
+   text-align: left !important;
   border-radius: 20px;
   color: #222;
   max-width: 350px;
@@ -102,16 +103,17 @@ section,
 /* About */
 #about {
   background-color: #1b4f72;
-  height: 400px;
-  padding-top: 20px;
+  height: 500px;
+  padding: 2rem;
   color: white;
   display: flex;
   justify-content: space-evenly;
 }
 .img {
-  width: 350px;
+  width: 300px;
   height: 270px;
   border-radius: 50%;
+  padding-top: 20px;
   /* padding: 20px; */
   /* margin-left: 40%; */
   /* float: inline-end; */
